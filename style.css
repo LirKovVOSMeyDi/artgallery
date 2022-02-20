@@ -1,0 +1,139 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Times New Roman'; /* Семейство шрифтов */
+    font-size: 14pt; /* Размер основного шрифта в пунктах  */
+    background-color: #261739; /* Цвет фона веб-страницы */
+    color: #ffffff; /* Цвет основного текста */ 
+    height: 100%;
+    margin : 0;
+    padding: 0;
+}
+  
+  
+header {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-image: url(menu.svg);
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat:no-repeat;
+
+    width: 100%;
+    aspect-ratio: 100 / 35; 
+}
+
+.header-author {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    margin-top: 2%;
+    background-repeat:no-repeat;
+}
+
+#header-lir {
+    background-image: url(lirkovlogo.svg);
+    background-position: right 5%;
+    width : 35%;
+    background-size: 80% 80%;
+}
+
+#header-mey {
+    background-image: url(meydilogo.svg);
+    background-position: center 0%;
+    width :24%;
+    background-size: 90% 90%;
+}
+
+#header-vos {
+    background-image: url(voslogo.svg);
+    background-position: left 5%;
+    width : 35%;
+    background-size: 90% 90%;
+}
+
+iframe 
+{
+    border:0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -11.1%;
+    height:55%;
+    width:50%;
+    background-color: #2F2B4C;
+    padding: 1%;
+
+
+}
+.inside
+{
+    background-color: #2F2B4C;
+    color: #ffffff; /* Цвет основного текста */ 
+    font-family: 'Times New Roman'; /* Семейство шрифтов */
+    font-size: 14pt; /* Размер основного шрифта в пунктах  */
+}
+.containermenu 
+{
+    size: 5%;
+    position: absolute;
+    width: 52%;
+    height: 4.6%;
+    margin-top: -13.4%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.mainmain 
+{
+width: 100%;
+background-color: #2F2B4C;
+}
+.mainul ul {
+    display: none;
+    background-color: #2048C7;
+    position: absolute;
+    top: 100%;
+  }
+  .mainul li:hover ul { display: block; }
+  .mainul, .mainul ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .mainul {
+    height: 100%;
+    min-width: 470px;
+    width: 100%;
+  }
+  .mainul li {
+    background-color: #2048C7;
+    float: left;
+    position: relative;
+    height: 100%;
+    margin-left: 0%;
+    width: 20%;
+  }
+  .mainul li a {
+    display: block;
+    padding: 6px;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    
+  }
+  .mainul ul li { float: none; 
+    width: 20%;
+}
+  .mainul ul li:hover {
+    width: 20%;
+  }
+  .mainul li a:hover {color:#261739;
+   }
