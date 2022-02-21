@@ -1,22 +1,22 @@
-html {
+  html 
+{
     width: 100%;
     height: 100%;
     margin: 0%;
     padding: 0%;
 }
-
-body {
+  body 
+{
     font-family: 'Times New Roman'; /* Семейство шрифтов */
     font-size: 14pt; /* Размер основного шрифта в пунктах  */
     background-color: #261739; /* Цвет фона веб-страницы */
     color: #ffffff; /* Цвет основного текста */ 
     height: 100%;
     margin : 0;
-    padding: 0;
-}
-  
-  
-header {
+    padding: 0%;
+} 
+  header 
+{
     display: block;
     margin: 0;
     padding: 0;
@@ -24,12 +24,11 @@ header {
     background-size: cover;
     background-position: 0 0;
     background-repeat:no-repeat;
-
     width: 100%;
     aspect-ratio: 100 / 35; 
 }
-
-.header-author {
+  .header-author 
+{
     display: block;
     float: left;
     margin: 0;
@@ -38,49 +37,50 @@ header {
     margin-top: 2%;
     background-repeat:no-repeat;
 }
-
-#header-lir {
+  #header-lir 
+{
     background-image: url(lirkovlogo.svg);
     background-position: right 5%;
     width : 35%;
     background-size: 80% 80%;
 }
-
-#header-mey {
+  #header-mey 
+{
     background-image: url(meydilogo.svg);
     background-position: center 0%;
     width :24%;
     background-size: 90% 90%;
 }
-
-#header-vos {
+  #header-vos 
+{
     background-image: url(voslogo.svg);
     background-position: left 5%;
     width : 35%;
     background-size: 90% 90%;
 }
 
-iframe 
+  iframe 
 {
     border:0px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 22%;
+    margin-right: 22%;
     margin-top: -11.1%;
-    height:55%;
-    width:50%;
+    height:58%;
+    width:56%;
     background-color: #2F2B4C;
-    padding: 1%;
-
 
 }
-.inside
+
+/* ФРЕЙМ */ 
+  .inside
 {
+    padding: 5pt;
     background-color: #2F2B4C;
-    color: #ffffff; /* Цвет основного текста */ 
-    font-family: 'Times New Roman'; /* Семейство шрифтов */
-    font-size: 14pt; /* Размер основного шрифта в пунктах  */
+    color: #ffffff; 
+    font-family: 'Times New Roman'; 
+    font-size: 14pt; 
 }
-.containermenu 
+  .containermenu 
 {
     size: 5%;
     position: absolute;
@@ -90,50 +90,149 @@ iframe
     margin-left: 25%;
     margin-right: 25%;
 }
-.mainmain 
+  .mainmain 
 {
-width: 100%;
-background-color: #2F2B4C;
+    width: 100%;
 }
-.mainul ul {
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+    margin-top: -50pt;
+  }
+
+  to {
+   opacity: 1;
+   margin-top: 0pt;
+
+ }
+}
+
+  .mainul ul 
+{
     display: none;
-    background-color: #2048C7;
     position: absolute;
     top: 100%;
-  }
-  .mainul li:hover ul { display: block; }
-  .mainul, .mainul ul {
+    animation-duration: 1s;
+  animation-name: slidein;
+}
+  .mainul li:hover ul 
+{
+   display: block;
+
+   
+}
+.mainul ul
+{
+  margin-top: 0pt;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+
+}
+  .mainul
+{
     margin: 0;
-    padding: 0;
+    padding:0;
     list-style-type: none;
-  }
-  .mainul {
-    height: 100%;
+    display: inline-block;
     min-width: 470px;
     width: 100%;
-  }
-  .mainul li {
-    background-color: #2048C7;
+}
+  .mainul li 
+{
+    font-family: 'werfus';
+    font-size: 35pt;
     float: left;
     position: relative;
-    height: 100%;
+    height: 73%;
     margin-left: 0%;
     width: 20%;
-  }
-  .mainul li a {
+    display: block;
+}
+  .mainul li a 
+{
     display: block;
     padding: 6px;
     width: 100px;
     color: #fff;
     text-decoration: none;
+    margin-top: -15px;
     text-align: center;
+}
+
+.mainul li li 
+{
+    float: none; 
+    width: 85pt;
+    background-color: #2048C7;
+    margin-top: 5pt;
     
-  }
-  .mainul ul li { float: none; 
+}
+
+.mainul li li:nth-child(odd) {
+  margin-left: 15px;
+}
+
+.mainul li li:hover 
+{
+    float: none; 
+    width: 85pt;
+    background-color: #2048C7;
+    
+
+}
+.mainul li li a:hover
+{
+    float: none; 
+    font-size: 25pt;
+
+}
+.mainul li li a
+{
+  float: none; 
+  font-size: 25pt;
+  height: 30pt;
+  display: inline;
+}
+  .mainul > li:hover 
+{
     width: 20%;
 }
-  .mainul ul li:hover {
-    width: 20%;
-  }
-  .mainul li a:hover {color:#261739;
-   }
+  .mainul a:hover 
+{
+    color:#f1dc1c;
+
+}
+h1 {
+
+  font-family: "werfus";
+  font-size: 40pt;
+  letter-spacing: 5pt;
+  text-align: center;
+  line-height: 60%;
+  z-index: 0;
+}
+h2 {
+
+  font-family: "werfus";
+  font-size: 25pt;
+  letter-spacing: 5pt;
+  text-align: center;
+  color: #f1dc1c;
+  line-height: 40%;
+  z-index: 0;
+}
+   @font-face 
+{ 
+    font-family: "werfus"; 
+    src: url("werfus.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+} 
+.round {
+  border-radius: 20px; /* Радиус скругления */
+  border: 1px solid rgba(77, 51, 61, 0.534); /* Параметры рамки */
+  box-shadow: 0 0 3px rgba(14, 6, 46, 0.527); /* Параметры тени */
+  margin: 1pt;
+ }
