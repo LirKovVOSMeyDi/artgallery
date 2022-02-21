@@ -226,7 +226,7 @@ h2 {
    @font-face 
 { 
     font-family: "werfus"; 
-    src: url("werfus.ttf") format("truetype"); 
+    src: url("../fonts/werfus.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal;
 } 
