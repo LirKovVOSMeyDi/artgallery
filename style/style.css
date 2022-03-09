@@ -37,14 +37,29 @@
     margin-top: 2%;
     background-repeat:no-repeat;
 }
-  #header-lir 
+  #header-lir
+{
+    background-image: url(lirkovlogoBWV.svg);
+    background-position: right 5%;
+    width : 35%;
+    background-size: 80% 80%;
+}
+#header-lir:hover
 {
     background-image: url(lirkovlogo.svg);
     background-position: right 5%;
     width : 35%;
     background-size: 80% 80%;
 }
+
   #header-mey 
+{
+    background-image: url(meydilogoBWV.svg);
+    background-position: center 0%;
+    width :24%;
+    background-size: 90% 90%;
+}
+#header-mey:hover 
 {
     background-image: url(meydilogo.svg);
     background-position: center 0%;
@@ -53,12 +68,18 @@
 }
   #header-vos 
 {
+    background-image: url(voslogoBWV.svg);
+    background-position: left 5%;
+    width : 35%;
+    background-size: 90% 90%;
+}
+#header-vos:hover 
+{
     background-image: url(voslogo.svg);
     background-position: left 5%;
     width : 35%;
     background-size: 90% 90%;
 }
-
   iframe 
 {
     border:0px;
@@ -74,11 +95,18 @@
 /* ФРЕЙМ */ 
   .inside
 {
-    padding: 5pt;
+    padding: 15pt;
     background-color: #2F2B4C;
     color: #ffffff; 
-    font-family: 'Times New Roman'; 
-    font-size: 14pt; 
+    font-family: 'Arial'; 
+    font-size: 12pt; 
+    line-height: 155%;
+}
+
+.leftimg
+{
+  float:left; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
 }
   .containermenu 
 {
@@ -236,3 +264,70 @@ h2 {
   box-shadow: 0 0 3px rgba(14, 6, 46, 0.527); /* Параметры тени */
   margin: 1pt;
  }
+ .textaccent  
+ {
+color:#e43175;
+ }
+ .gallery
+  {
+   text-align: center;
+   }
+   .linkinside
+   {color:#e43175;
+text-decoration: none;
+font-weight: bold;
+
+
+   }
+   .linkinside:visited
+   {color:#e43175;
+    text-decoration: none;
+    font-weight: bold;
+
+   }
+   .linkinside:active
+   {color:#e43175;
+    text-decoration: none;
+    font-weight: bold;
+
+   }
+  .linkinside:hover
+  {color:#dfba18;
+    text-decoration: none;
+    font-weight: bold;
+
+
+  }
+  .divtextinside
+  {
+    text-indent: 1cm;
+  }
+.insideul
+{
+  text-indent: 0cm;
+}
+.indexbutton
+{ 
+  text-decoration: none;
+  font-family: 'werfus';
+  font-size: 30pt;
+  color:#dfba18;
+  text-align: center;
+  line-height: 70%;
+}
+.indexbuttondiv
+{ z-index: 15;
+  text-align: center;
+  border-radius: 40px; /* Радиус скругления */
+  border: 1px solid rgba(77, 51, 61, 0.534); /* Параметры рамки */
+  box-shadow: 0 0 3px rgba(14, 6, 46, 0.527); /* Параметры тени */
+  margin: 1pt;
+  width: 80px;
+  height:80px;
+  padding-top: 20px;
+  display: block;
+  float: left;
+  position:fixed;
+  bottom: 1%;
+  left:15%;
+}
