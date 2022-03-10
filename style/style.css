@@ -7,10 +7,10 @@
 }
   body 
 {
-    font-family: 'Times New Roman'; /* Семейство шрифтов */
-    font-size: 14pt; /* Размер основного шрифта в пунктах  */
-    background-color: #261739; /* Цвет фона веб-страницы */
-    color: #ffffff; /* Цвет основного текста */ 
+    font-family: 'Arial'; 
+    font-size: 14pt; 
+    background-color: #261739; 
+    color: #ffffff; 
     height: 100%;
     margin : 0;
     padding: 0%;
@@ -51,7 +51,6 @@
     width : 35%;
     background-size: 80% 80%;
 }
-
   #header-mey 
 {
     background-image: url(meydilogoBWV.svg);
@@ -89,10 +88,7 @@
     height:58%;
     width:56%;
     background-color: #2F2B4C;
-
 }
-
-/* ФРЕЙМ */ 
   .inside
 {
     padding: 15pt;
@@ -102,11 +98,10 @@
     font-size: 12pt; 
     line-height: 155%;
 }
-
 .leftimg
 {
-  float:left; /* Выравнивание по левому краю */
-  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+  float:left;
+  margin: 7px 7px 7px 0; 
 }
   .containermenu 
 {
@@ -146,9 +141,7 @@
 }
   .mainul li:hover ul 
 {
-   display: block;
-
-   
+   display: block;   
 }
 .mainul ul
 {
@@ -156,7 +149,6 @@
   padding: 0;
   list-style-type: none;
   text-align: center;
-
 }
   .mainul
 {
@@ -188,16 +180,13 @@
     margin-top: -15px;
     text-align: center;
 }
-
 .mainul li li 
 {
     float: none; 
     width: 85pt;
     background-color: #2048C7;
-    margin-top: 5pt;
-    
+    margin-top: 5pt;    
 }
-
 .mainul li li:nth-child(odd) {
   margin-left: 15px;
 }
@@ -206,15 +195,12 @@
 {
     float: none; 
     width: 85pt;
-    background-color: #2048C7;
-    
-
+    background-color: #2048C7;   
 }
 .mainul li li a:hover
 {
     float: none; 
     font-size: 25pt;
-
 }
 .mainul li li a
 {
@@ -230,10 +216,9 @@
   .mainul a:hover 
 {
     color:#f1dc1c;
-
 }
-h1 {
-
+h1 
+{
   font-family: "werfus";
   font-size: 40pt;
   letter-spacing: 5pt;
@@ -241,8 +226,8 @@ h1 {
   line-height: 60%;
   z-index: 0;
 }
-h2 {
-
+h2 
+{
   font-family: "werfus";
   font-size: 25pt;
   letter-spacing: 5pt;
@@ -258,45 +243,51 @@ h2 {
     font-style: normal; 
     font-weight: normal;
 } 
-.round {
-  border-radius: 20px; /* Радиус скругления */
-  border: 1px solid rgba(77, 51, 61, 0.534); /* Параметры рамки */
-  box-shadow: 0 0 3px rgba(14, 6, 46, 0.527); /* Параметры тени */
+.round 
+{
+  border-radius: 20px;
+  border: 1px solid rgba(77, 51, 61, 0.534);
+  box-shadow: 0 0 3px rgba(14, 6, 46, 0.527);
   margin: 1pt;
- }
+}
  .textaccent  
- {
+{
 color:#e43175;
- }
+display: inline;
+}
+ .textaccent1 
+{
+color:#38b6ff;
+display: inline;
+}
+ .textaccent2
+{
+color:#bd2020;
+display: inline;
+}
  .gallery
-  {
+{
    text-align: center;
-   }
+}
    .linkinside
    {color:#e43175;
 text-decoration: none;
 font-weight: bold;
-
-
-   }
+}
    .linkinside:visited
-   {color:#e43175;
+{color:#e43175;
     text-decoration: none;
     font-weight: bold;
-
-   }
+}
    .linkinside:active
-   {color:#e43175;
+{color:#e43175;
     text-decoration: none;
     font-weight: bold;
-
-   }
+}
   .linkinside:hover
   {color:#dfba18;
     text-decoration: none;
     font-weight: bold;
-
-
   }
   .divtextinside
   {
@@ -318,9 +309,9 @@ font-weight: bold;
 .indexbuttondiv
 { z-index: 15;
   text-align: center;
-  border-radius: 40px; /* Радиус скругления */
-  border: 1px solid rgba(77, 51, 61, 0.534); /* Параметры рамки */
-  box-shadow: 0 0 3px rgba(14, 6, 46, 0.527); /* Параметры тени */
+  border-radius: 40px;
+  border: 1px solid rgba(77, 51, 61, 0.534); 
+  box-shadow: 0 0 3px rgba(14, 6, 46, 0.527); 
   margin: 1pt;
   width: 80px;
   height:80px;
