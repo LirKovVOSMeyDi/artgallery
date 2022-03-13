@@ -68,14 +68,14 @@ size:100%;
 background-color: #ffffff;
 width: 50%;
 height: auto;
-min-height: 75%;
+min-height: 85%;
 display: block;
 position: absolute;
 margin: 0%;
 padding:0;
 left:25%;
 right: 25%;
-top:22%;
+top:15%;
 }
 .img
 {
