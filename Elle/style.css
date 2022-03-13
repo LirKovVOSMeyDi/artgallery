@@ -1,0 +1,200 @@
+body
+{
+font-family: Arial, Magnum;
+background-color: #ffffff;
+background: url(backpic.png);
+background-repeat: no-repeat;
+background-position: top;
+background-size: 100%;
+padding: 0%;
+margin: 0;
+}
+
+@font-face 
+{ 
+    font-family: "Magnum"; 
+    src: url("AA_Magnum.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+} 
+.menulink
+{
+    font-family: Magnum;
+    font-size: 69px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-weight: 100%;
+}
+.menulink:active
+{
+    font-family: Magnum;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-weight: 100%;
+}
+.menulink:hover
+{
+    font-family: Magnum;
+    text-decoration: none;
+    color: #e2e2e2;
+    display: block;
+    font-weight: 100%;
+}
+.menuul
+{
+list-style-type: none;
+display: block;
+position: absolute;
+}
+
+.menubox
+{
+position: absolute;
+top:40%;
+right:27%;
+text-align: center;
+width: 21% ;
+height: 35%;
+margin-left: 0%;
+margin-right: 0%;
+margin-bottom: 0%;
+margin-top: 0%;
+size:100%;
+}
+.nindex
+{
+background-color: #ffffff;
+width: 50%;
+height: auto;
+min-height: 75%;
+display: block;
+position: absolute;
+margin: 0%;
+padding:0;
+left:25%;
+right: 25%;
+top:25%;
+}
+.img
+{
+border-radius: 0;    
+}
+.backlink
+{
+display: block;    
+position: relative;
+border-radius: 0;
+background-image:url(back.png);
+width: 111px;
+height: 45px;
+padding: 0;
+margin: 15px;
+float: left;
+}
+.backlink:hover
+{
+background-image: url(backhover.png);    
+}
+h1
+{
+position: relative;
+display: block;
+font-family: Magnum;
+font-size: 40pt;
+line-height: 0px;
+left:27%;
+right:60%;
+letter-spacing: 2pt;
+}
+h2
+{
+    font-family: Arial;
+    font-size: 20pt;
+}
+h3
+{
+
+    font-family: Arial;
+    font-size: 15pt;
+    font-weight:1000;
+    line-height: 15%;
+    padding-top: 15pt;
+}
+.content1
+{
+padding-top: 1%;    
+padding-left: 3%;
+display: block;
+}
+.content2
+{
+padding-top: 1%;    
+padding-left: 3%;
+float:right;
+position: absolute;
+top: 0;
+right: 0;
+width: 50%;
+padding-right: 3%;
+padding-top: 6%;
+display: block;
+}
+.biography
+{
+text-decoration: none;    
+list-style-type: none;
+padding: 0%;
+font-weight: bold;
+}
+.skills
+{
+text-decoration: none;    
+list-style-type: none;
+font-weight: bold;
+line-height: 120%;
+}
+.avatar 
+{display: block;}
+.achivments
+{
+padding-top: 10pt;
+list-style-type: none;
+font-weight: bold;
+line-height: 180%;
+text-decoration: none; 
+padding-left: 0;
+}
+.achivmentsdiv
+{
+width: 70%;
+padding-top: 1%;    
+padding-left: 3%;
+display: block;
+}
+.diplomadiv
+{
+width:200px;
+height: max-content;
+float:right;
+padding-top: 46pt;
+padding-right: 3%;
+}
+.diplomaimg
+{
+padding-bottom: 10pt;    
+}
+.gallery
+{
+padding: 15pt;    
+text-align: center;
+
+}
+.gallery img
+{
+    padding-bottom:5pt;
+    padding-top: 0pt;
+    padding-left:5pt;
+    padding-right: 10pt;
+}
